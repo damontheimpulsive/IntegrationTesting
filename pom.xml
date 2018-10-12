@@ -72,9 +72,10 @@
 			<plugin>
 				<groupId>org.jacoco</groupId>
 				<artifactId>jacoco-maven-plugin</artifactId>
-				<version>0.7.0.201403182114</version>
+                <version>0.8.2</version>
+				
 				<configuration>
-					<destFile>${sonar.jacoco.reportPath}</destFile>
+					<destFile>${sonar.jacoco.reportPaths}</destFile>
 				</configuration>
 				<executions>
 					<execution>
